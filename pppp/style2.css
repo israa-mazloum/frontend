@@ -1,0 +1,188 @@
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+/* ---- navbar ---*/
+
+.navbar{
+    padding: 15px;
+    background-color: bisque;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.menu
+{
+    display:flex;
+    gap: 100px;
+
+}
+
+.menu li
+{
+    list-style: none;
+    cursor: pointer;
+}
+
+.menu li:hover 
+{
+    font-size: 20px;
+    color: orange;
+    transition: 1.5s;
+} 
+
+.navbar input{
+    height: 30px;
+    border-radius: 10px;
+
+}
+
+/* ----- navbar ----- */
+
+
+
+
+/* ----- PRODUCT BOX ----- */
+
+
+.product-boxs-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+
+}
+
+.product-box
+{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start ;
+    margin-top: 150px;
+    background-color:#bfa887ff;
+    width: 250px;
+    height: 540px;
+    border-radius: 7px;
+    gap: 10px;
+    margin-bottom: 150px;
+    box-shadow: 10px 10px 5px rgb(70, 70, 71);
+    
+    
+}
+
+.product-box:hover .btn
+{
+    opacity: 1;
+}
+
+
+.product-img{
+    margin-top: 40px;
+    width: 250px;
+    border-radius: 5px;
+}
+.rating{
+    display:flex;
+    gap: 10px;
+
+}
+
+.price 
+{
+    display: flex;
+    align-items:center;
+    gap: 10px;
+
+}
+
+
+.discount-price
+{
+    font-size: 24px;
+    font-weight: 900;
+
+}
+.orginal-price
+{
+    color: gray;
+    text-decoration: line-through;
+}
+.welcom-deal
+{
+    padding: 10px;
+    background-color:red;
+    color: white;
+    font-weight: 900;
+    border-right: 5px;
+    border-radius: 5px;
+}
+
+.btns
+{
+display:flex;
+gap: 15px;
+
+}
+
+.btn
+{
+padding: 10px;
+border:none;
+background-color: black;
+color: white;
+border-radius: 5px;
+transition: 1.5s;
+opacity: 0;
+
+}
+.btn:hover
+{
+ background-color:aliceblue;
+ color: black;
+ transform: scale(1.2);
+
+}
+
+
+.add-to-card
+{
+    position:absolute;
+    font-size: 24px;
+    background-color: aliceblue;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 50%;
+    bottom: 20px;
+    right: 20px;  
+    transition: 2s;
+}m
+
+.add-to-card:hover
+{
+    color: wheat;
+    background-color: rgb(107, 202, 161);
+    transform: scale(1.4);
+
+} 
+
+
+
+
+
+
+
+
+/* ----- PRODUCT BOX ----- */

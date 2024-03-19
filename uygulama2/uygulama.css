@@ -1,0 +1,39 @@
+body
+{
+    background-color: rgb(212, 74, 97);
+}
+.container
+{
+    width: 60%;         /* sayfanın ( bulunduğu ortamın ) yüzde 60 ı kapla */
+    margin: 0 auto;     /*  üstten altatan 0 boşluk ver sağ ve solu ortala */
+    margin-top: 5%;
+}
+
+.contact-page
+{
+    background-color: #fff;
+    padding:25px 30px;            /* iç boşluk vriyor*/ 
+}
+
+.header-page
+{
+    margin-bottom: 30px;
+}
+
+.iput-content button
+{
+    width: 100%;
+    height: 50px;
+    background-color: pink;
+    color: #fff;
+    border: 0; 
+}
+
+
+.iput-content input
+{
+    width: 100%;              /* full satır yaptım*/
+    margin-bottom: 15px;     /*aralarındaki boşluğu açar*/
+    padding: 15px 25px;
+    box-sizing: border-box;   /* paddingin widthin içinde ver . inputun genişliği büymesin padding verdiğimde */
+}

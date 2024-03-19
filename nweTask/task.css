@@ -1,0 +1,158 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(221, 182, 134);
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.menu li {
+    cursor: pointer;
+}
+
+.menu li:hover {
+    padding-inline: 20px;
+    background-color: rgba(214, 142, 128, 0.957);
+    color: rgb(214, 127, 255);
+    transition: 1.5s;
+}
+
+.navbar input {
+    border-radius: 8px;
+    height: 35px;
+    width: 150px;
+}
+
+/*---- product--card--*/
+
+
+.procuct-box-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.product-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding-right: 45px;
+    align-items: start;
+    padding-left: 45px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color: #b88832ff;
+    width: 320px;
+    height: 650px;
+    border-radius: 10px;
+
+}
+
+.product-img {
+    padding-right: 30px;
+    padding-left: 10px;
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.add-to-card {
+    position: absolute;
+    background-color: antiquewhite;
+    width: 16%;
+    height: 12%;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 50%;
+    right: 40px;
+    bottom: 20px;
+    transition: 2s;
+    cursor:pointer;
+
+}
+
+.add-to-card:hover {
+    color: black;
+    background-color: rgb(224, 191, 41);
+    transform: scale(1.2);
+}
+
+.solstr {
+    display: flex;
+    gap: 10px;
+}
+
+.price {
+    display: flex;
+    gap: 10px;
+}
+
+.dicoraition-price {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 1000;
+}
+
+.deal {
+    padding: 10px;
+    background-color: brown;
+    font-weight: 1000;
+    border-right: 5px;
+}
+
+.welcom {
+    display: flex;
+    gap: 10px;
+}
+
+.freesp {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-weight: 1000;
+}
+
+.btns {
+    display:flex;
+    gap: 20px;
+
+}
+
+.btn {
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 9px;
+    cursor: pointer;
+    transition: 1.3s;
+}
+
+.btn:hover {
+    background-color: #ffa31a;
+    color: beige;
+    transform: scale(1.2);
+
+}
+/*
+.procuct-box-container:hover
+{
+    display: block;
+}
+*/
